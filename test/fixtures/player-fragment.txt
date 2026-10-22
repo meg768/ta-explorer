@@ -1,0 +1,5 @@
+var player_frag = `<h3 id="recent-results-h">Recent Results</h3>
+<table id="recent-results"><tr><th>Date</th><th>Tournament</th><th>Result</th></tr>
+<tr><td>2026-07-20</td><td>Kitzbuhel</td><td>W</td></tr></table>
+<h3 id="challenger-results-h">Challengers</h3>
+<table id="challenger-results"><tr><th>Date</th></tr><tr><td>2020-01-01</td></tr></table>`;

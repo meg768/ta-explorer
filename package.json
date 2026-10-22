@@ -1,0 +1,28 @@
+{
+  "name": "ta-explorer",
+  "version": "1.0.0",
+  "description": "CLI for exploring data available from Tennis Abstract",
+  "type": "module",
+  "bin": {
+    "ta": "./bin/ta.js"
+  },
+  "scripts": {
+    "ta": "node ./bin/ta.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "tennis",
+    "tennis-abstract",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^17.4.2",
+    "yargs": "^17.7.2"
+  }
+}
